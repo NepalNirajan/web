@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+	
+nav{
+	width: 100%;
+	height: 15vh;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+.logo{
+	width: 15%; height: 30%; text-align: center;
+	background: green;
+} 
+.menu{
+	width: 40%;
+/*background: yellow;*/ 
+display: flex;
+justify-content: space-around;
+}
+
+
+.menu a{
+	color: royalblue; text-decoration: none;
+	font-weight: bold; width: 25%;
+
+
+}
+main{
+	width: 100%; height: 85vh;
+	display: flex;
+	justify-content: center; align-items: center;
+	color: white;
+	text-transform: cener;
+}
+section{
+	padding-top: 30px;
+}
+section h3{
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-shadow: 1px 2px 2px black;
+}
+section h1{
+	margin: 30px 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+}
+ section p{
+ 	font-size: 25px;
+ 	word-spacing: 2px;
+ 	margin-bottom: 25px;
+ 	text-shadow: 2px 1px 5px black;
+ }
+ section a{
+ 	padding: 12px 30px;
+ 	border-radius: 4px;
+ 	outline: none;
+ 	text-transform: uppercase;
+ 	font-size: 13px;
+ 	font-weight: 500;
+ 	text-decoration: none;
+ 	letter-spacing: 1px;
+ }
+
+ .btnone:{
+ 	background: #fff;
+ 	color: #000;
+ 	margin-right: 15px;
+ 	transition: all .5s ease;
+ }
+.btnone:hover{
+	background: #00b894;
+ 	color: red;
+ }
+}
+ .btntwo hover{
+ 	background: #00b894;
+ 	color: red;
+ }
+
+ .change_content:after{
+ 	content: '';
+ 	animation: changetext 10s infinite linear;
+ 	color: #00b894;
+ }
+@keyframes changetext{
+	0%{ content: "POKHARA"; }
+	20%{ content: "KATHMANDU"; }
+	35%{ content: "LUMBINI"; }
+	60%{ content: "MUSTANG"; }
+	80%{ content: "RARA"; }
+	100%{ content: "SRINAGAR"; }
+}
+
+
+p { 
+	font-family: 'Roboto', sans-serif; 
+	} 
+	
+	h2 { 
+	font-family: 'Merienda One', cursive; 
+	} 
+	
+	.footer { 
+	width: 100%; 
+	/*height: 200px;*/ 
+	/* background-color: #30475e; */ 
+	clear: both; 
+	} 
+	
+	.footer_column { 
+	width: 33.33%; 
+	background-color: #30475e; 
+	float: left; 
+	} 
+	
+	.footer_column p { 
+	color: white; 
+	padding: 20px; 
+	/* border-right: 1px solid #fff;*/ 
+	} 
+	
+	.footer_column a { 
+	color: white; 
+	text-decoration: none; 
+	} 
+	
+	.footer_column a:hover { 
+	text-decoration: underline; 
+	} 
+	
+	/* On screens that are 992px wide or less, go from four columns to two columns */ 
+	@media screen and (max-width: 992px) { 
+	.column { 
+	width: 50%; 
+	background-color: #d0e8f2; 
+	} 
+	
+	.content_column { 
+	width: 100%; 
+	} 
+	} 
+	
+	@media screen and (max-width: 600px) { 
+	.column { 
+	width: 100%; 
+	background-color: #f4eeed; 
+	} 
+
+	.content_column { 
+	width: 100%; 
+	} 
+	 
